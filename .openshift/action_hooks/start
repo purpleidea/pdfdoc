@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#echo test from bash
+#export PATH=~/myapp/runtime/bin/:$PATH
+export PATH=$OPENSHIFT_HOMEDIR/app-root/data/latex/bin/x86_64-linux/:$OPENSHIFT_HOMEDIR/app-root/data/pandoc/bin/:$PATH
