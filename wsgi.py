@@ -286,7 +286,7 @@ def application(environ, start_response):
 
 			<div class="row marketing">
 				<div class="col-lg-6">
-					<h4>Avoid storing your pdf's in git!</h4>
+					<h4><a href="https://github.com/purpleidea/puppet-gluster/commit/a4bf5cad81ca66212f4c8e52edb2e816b8895690">Avoid storing your pdf's in git!</a></h4>
 					<p>Leave the binary bits out of this.</p>
 
 					<h4>Document conversion by <a href="https://github.com/jgm/pandoc/">Pandoc</a></h4>
@@ -297,7 +297,7 @@ def application(environ, start_response):
 				</div>
 
 				<div class="col-lg-6">
-					<h4>Generate beautiful documentation!</h4>
+					<h4><a href="https://pdfdoc-purpleidea.rhcloud.com/pdf/https://github.com/purpleidea/puppet-ipa/blob/master/DOCUMENTATION.md">Generate beautiful documentation!</a></h4>
 					<p>The best quality document conversion available.</p>
 
 					<h4>Written in <a href="https://www.python.org/">Python</a></h4>
