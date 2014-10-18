@@ -31,8 +31,6 @@ if data is not None:
 	p = os.path.join(data, 'pandoc/bin/')
 	os.environ['PATH'] = ':'.join([l, p, os.environ['PATH']])
 
-import pypandoc
-
 def github_tokens_to_dictionary(tokens):
 	"""Split an array of tokens into a named dictionary."""
 	variables = ['site', 'username', 'project', 'commit', 'filename']
